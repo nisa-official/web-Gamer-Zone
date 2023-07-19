@@ -1,0 +1,8 @@
+/* wark sans font style */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,800&family=Oswald:wght@500&family=Work+Sans:wght@400;600;700;800&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}

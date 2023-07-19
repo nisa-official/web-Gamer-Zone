@@ -57,10 +57,12 @@ nav li a {
     background: rgba(11, 2, 35, 0.10);
     padding: 30px 60px;
 }
-.list-item{
+
+.list-item {
     padding-top: 30px;
 }
-.img-style{
+
+.img-style {
     padding-top: 5px;
 }
 
@@ -79,7 +81,123 @@ nav li a {
 
 .font-color {
     text-align: center;
-   font-size: 40px;
-   font-weight: 600;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+
+/* main banner style */
+.banner-container {
+    background-image: url(../images/Group\ 14.png);
+    width: 901px;
+    height: 700px;
+}
+
+.banner-section {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.banner-img {
+    width: 700px;
+    height: 446px;
+}
+
+.banner-head {
+    padding: 70px 0px 0px 100px;
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-shortform {
+    padding: 50px 0px 0px 100px;
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+   text-transform: uppercase;
+}
+.banner-color{
+  color: hotpink linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+   
+
+}
+.banner-descraption{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+  align-items: flex-start;
+  
+   
+}
+.color-banner{
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+.btn-style{
+  padding-left: 40%;
+}
+.btn-style-1{
+    border-radius: 48px;
+    width: 100px;
+    height: 40px;
+    color: #FFF;
+    background-color: #F948B2;
+    border: 0px;
+}
+.btn-style-2{
+    border-radius: 48px;
+    width: 100px;
+    height: 40px;
+    color: #FFF;
+    background: #4EC5F7;
+    border: 0px;
+}
+/* responsive media queries */
+@media screen and (max-width: 576px) {
+haeder{
+    padding: 10px;
+    margin: auto;
+}
+nav,
+.nav-style,
+.banner-section
+{
+    flex-direction: column;
+    padding-left: 50px;
+    padding-top: 20px;
+
+}
+.gamer-section {
+    flex-direction: row;
+   
+}
+.nav-style
+{
+    flex-direction: column;
     
+
+}
+.banner-container,
+.banner-img
+{
+    width: 100%;
+   
+}
+.banner-section{
+    width: 100%;
+}
+nav{
+    width: 100%;
+}
+
 }
